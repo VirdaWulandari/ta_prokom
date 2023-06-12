@@ -67,7 +67,7 @@ st.markdown("<hr/>",unsafe_allow_html=True)
 
 st.markdown("## Chart Layout")
 
-chart1, chart2 = st.beta_columns(2)
+chart1, chart2 = st.columns(2)
 
 with chart1:
     chart_data = pd.DataFrame(np.random.randn(20, 3),columns=['a', 'b', 'c'])
